@@ -28,7 +28,7 @@ body{
 #welcome::before{
     position: absolute;
     content: '';
-    height: 220px;
+    height: 320px;
     width: 220px;
     background: #dde1e7;
     border-radius: 14px;
