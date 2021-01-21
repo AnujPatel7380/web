@@ -1,7 +1,7 @@
 var i = 0;
-var gid = document.getElementById("welcome");
 function start(){
     welcome.style.display ="none";
+    main.style.display="block";
 
 }
 function myFunction() {
