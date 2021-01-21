@@ -3,13 +3,12 @@
     padding: 0;
 }
 body{
-    background: #dde1e7;
     display: flex;
     align-items: center;
     place-items: center;
     text-align: center;
-
-
+    color: #F3CA41;
+    background: #242A37;
 }
 #welcome{
    position: absolute;
@@ -19,25 +18,24 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #dde1e7;
     height: 350px;
     width: 250px;
     border-radius: 14px;
-    box-shadow: -3px -3px 7px #ffffff73,
-                3px 3px 5px rgba(94,104,121,0.288);
+   box-shadow: 3px 3px 7px #00000073,
+                -3px -3px 5px rgba(94,104,121,0.288);
 }
 #welcome::before{
     position: absolute;
     content: '';
     height: 320px;
     width: 220px;
-    background: #dde1e7;
     border-radius: 10px;
-    box-shadow: inset -3px -3px 7px #ffffff73,
-                inset 3px 3px 5px rgba(94,104,121,0.288);
+    box-shadow: inset 3px 3px 7px #00000073,
+                inset -3px -3px 5px rgba(94,104,121,0.288);
 }
 
 #start{
+    background: transparent;
     cursor: pointer;
     position: absolute;
     padding:10px 40px;
@@ -45,8 +43,8 @@ body{
     font-family: 'Signika', sans-serif;
     font-weight: 700;
     border-radius: 14px;
-    box-shadow: -3px -3px 7px #ffffff73,
-                3px 3px 5px rgba(94,104,121,0.288);
+    box-shadow: 3px 3px 7px #00000073,
+                -3px -3px 5px rgba(94,104,121,0.288);
     bottom: 30px;
     
 }
@@ -54,6 +52,7 @@ body{
     display:none;
 }
 .lightrope {
+    display:none;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -215,8 +214,8 @@ body{
     font-family: 'Signika', sans-serif;
     font-weight: 700;
     border-radius: 14px;
-    box-shadow: -3px -3px 7px #ffffff73,
-                3px 3px 5px rgba(94,104,121,0.288);
+    box-shadow: 3px 3px 5px #00000073,
+                -3px -3px 7px rgba(94,104,121,0.288);
 
 }
 @keyframes buttons {

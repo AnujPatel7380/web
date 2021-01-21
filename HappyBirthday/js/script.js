@@ -2,10 +2,10 @@ var i = 0;
 function start() {
     welcome.style.display = "none";
     main.style.display = "flex";
-
 }
 function myFunction() {
     turn_on.style.display = "none";
+    lights.style.display = "inline"
 
     i++;
     switch (i) {
