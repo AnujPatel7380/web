@@ -16,7 +16,7 @@ function myFunction() {
             break;
         case 2:
             music.style.display = "none";
-            audio.play();
+            audio.play().loop();
             break;
         case 3:
             break;
