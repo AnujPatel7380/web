@@ -76,11 +76,20 @@ canvas {
 }
 
 #title {
-    margin-top: -80px;
-    background-color: red;
+    font-size: 40px;
     text-align: center;
-    background: url(../img/namebg.gif);
+    background: url(https://files.123freevectors.com/wp-content/original/164806-orange-and-yellow-texture-background.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+.center{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+     box-shadow: 3px 5px 7px rgba(2, 2, 2, 0.753),
+    -3px -5px 7px rgba(226, 226, 226, 0.39);
+    background: url(../img/cack.png);
+
 }
