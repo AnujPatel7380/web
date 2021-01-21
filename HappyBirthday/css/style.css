@@ -14,11 +14,11 @@ body{
     width: 300px;
     background: #242A37;
     box-shadow: 
-     inset -6px -8px 10px 5px rgba(255, 255, 255, 0.03),
-     inset 6px 8px 10px 5px rgba(4, 4, 4, 0.3),
-     -6px -8px 10px 5px rgba(255, 255, 255, 0.03),
+     inset -5px -8px 10px 5px rgba(255, 255, 255, 0.03),
+     inset 5px 8px 10px 5px rgba(4, 4, 4, 0.3),
+      -5px -8px 10px 5px rgba(255, 255, 255, 0.03),
      6px 8px 10px 5px rgba(4, 4, 4, 0.3);
-    border-radius: 10px;
+    border-radius: 14px;
     left: 50%;
     bottom:0;
     transform: translate(-50%, -50%);
@@ -33,10 +33,10 @@ body{
     color: #fff;
     background: #242A37;
     background: #242A37;
-    box-shadow: 12px 8px 21px rgba(4, 4, 4, 0.3),
-     -6px -6px 13px rgba(255, 255, 255, 0.03);
+    box-shadow: -5px -8px 10px  rgba(255, 255, 255, 0.03),
+     5px 8px 10px 5px rgba(4, 4, 4, 0.3);
     border-radius: 10px;
-    bottom: 0;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
