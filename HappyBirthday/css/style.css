@@ -26,13 +26,12 @@ body{
     position: absolute;
     text-align: center;
     padding:10px 20px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     font-family: 'Signika', sans-serif;
     font-weight: 700;
     color: #fff;
     background: #242A37;
-    background: #242A37;
-    box-shadow: -5px -8px 10px  rgba(255, 255, 255, 0.03),
+    box-shadow: -5px -8px 10px 5px  rgba(255, 255, 255, 0.03),
      5px 8px 10px 5px rgba(4, 4, 4, 0.3);
     border-radius: 10px;
     bottom: 10px;
