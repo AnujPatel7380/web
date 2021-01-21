@@ -7,7 +7,7 @@ body{
     align-items: center;
     place-items: center;
     text-align: center;
-    color: #F3CA41;
+    /* color: #F3CA41; */
     background: #242A37;
 }
 #welcome{
@@ -43,6 +43,7 @@ body{
     font-family: 'Signika', sans-serif;
     font-weight: 700;
     border-radius: 14px;
+    color: #fff;
     box-shadow: 3px 3px 7px #00000073,
                 -3px -3px 5px rgba(94,104,121,0.288);
     bottom: 30px;
@@ -204,7 +205,8 @@ body{
     left: 50%;
     bottom:10px;
     animation:buttons .5s infinite linear;
-    transform: translate(-50%, -50%);}
+    transform: translate(-50%, -50%);
+color: #fff;}
 .btn{
     cursor: pointer;
     border-radius: 50px;
