@@ -90,6 +90,7 @@ canvas {
     border-radius: 50%;
      box-shadow: 3px 5px 7px rgba(2, 2, 2, 0.753),
     -3px -5px 7px rgba(226, 226, 226, 0.39);
-    background: url(../img/cack.png);
+    background: url(../img/gungun.jpg);
+    background-size: cover;
 
 }
