@@ -81,7 +81,6 @@ canvas {
     background: url(https://files.123freevectors.com/wp-content/original/164806-orange-and-yellow-texture-background.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }
 .center{
     position: absolute;
