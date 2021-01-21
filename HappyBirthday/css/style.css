@@ -21,7 +21,7 @@ body{
     background: #dde1e7;
     height: 250px;
     width: 250px;
-    border-radius: 14px;
+    border-radius: 22px;
     box-shadow: -3px -3px 7px #ffffff73,
                 3px 3px 5px rgba(94,104,121,0.288);
 }
@@ -41,7 +41,7 @@ body{
     position: absolute;
     text-align: center;
     padding:10px 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Signika', sans-serif;
     font-weight: 700;
     color: #fff;
