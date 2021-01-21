@@ -94,3 +94,10 @@ canvas {
     background-size: cover;
 
 }
+.bottom{
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+    background: url(../img/cack.png) center;
+    background-size: cover;
+}
