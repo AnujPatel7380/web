@@ -1,30 +1,25 @@
 var i = 0;
-function start(){
-    welcome.style.display ="none";
-    main.style.display="block";
+function start() {
+    welcome.style.display = "none";
+    main.style.display = "flex";
 
 }
 function myFunction() {
     i++;
     switch (i) {
         case 1:
-            document.getElementById("hello").innerHTML=i;
+            document.getElementById("turn_on").style.display = "nome";
             break;
         case 2:
-            document.getElementById("hello").innerHTML = i;
             break;
         case 3:
-            document.getElementById("hello").innerHTML = i;
             break;
         case 4:
-            document.getElementById("hello").innerHTML = i;
             break;
         case 5:
-            document.getElementById("hello").innerHTML = i;
             break;
 
         default:
-            document.getElementById("hello").innerHTML = i;
 
     }
 }
