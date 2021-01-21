@@ -19,9 +19,9 @@ body{
     align-items: center;
     justify-content: center;
     background: #dde1e7;
-    height: 250px;
+    height: 350px;
     width: 250px;
-    border-radius: 22px;
+    border-radius: 14px;
     box-shadow: -3px -3px 7px #ffffff73,
                 3px 3px 5px rgba(94,104,121,0.288);
 }
@@ -31,7 +31,7 @@ body{
     height: 320px;
     width: 220px;
     background: #dde1e7;
-    border-radius: 14px;
+    border-radius: 10px;
     box-shadow: inset -3px -3px 7px #ffffff73,
                 inset 3px 3px 5px rgba(94,104,121,0.288);
 }
