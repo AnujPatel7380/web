@@ -1,6 +1,3 @@
-var audio = new Audio('hbd.mp3');
-audio.loop = true;
-audio.play();
 // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
 // not supported in all browsers though and sometimes needs a prefix, so we need a shim
 window.requestAnimFrame = (function () {
