@@ -1,5 +1,6 @@
 var i = 0;
 var audio = new Audio("./hbd.mp3");
+audio.loop = true;
 function start() {
     welcome.style.display = "none";
     main.style.display = "flex";
@@ -16,7 +17,7 @@ function myFunction() {
             break;
         case 2:
             music.style.display = "none";
-            audio.play().loop();
+            audio.play();
             break;
         case 3:
             break;
