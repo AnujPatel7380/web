@@ -25,7 +25,7 @@ body{
     position: absolute;
     text-align: center;
     padding:10px 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Signika', sans-serif;
     font-weight: 700;
     color: #fff;
