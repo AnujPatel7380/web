@@ -46,9 +46,8 @@ body{
     border-radius: 14px;
     box-shadow: -3px -3px 7px #ffffff73,
                 3px 3px 5px rgba(94,104,121,0.288);
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 30px;
+    
 }
 #main{
     display:none;
