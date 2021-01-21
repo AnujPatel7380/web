@@ -5,10 +5,11 @@ function start() {
 
 }
 function myFunction() {
+    document.getElementById("turn_on").style.display = "nome";
+
     i++;
     switch (i) {
         case 1:
-            document.getElementById("turn_on").style.display = "nome";
             break;
         case 2:
             break;
