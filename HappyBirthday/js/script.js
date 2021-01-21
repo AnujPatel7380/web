@@ -1,4 +1,9 @@
 var i = 0;
+var gid = document.getElementById("welcome");
+function start(){
+    welcome.style.display ="none";
+
+}
 function myFunction() {
     i++;
     switch (i) {

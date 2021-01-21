@@ -22,6 +22,7 @@ body{
     transform: translate(-50%, -50%);
 }
 #start{
+    cursor: pointer;
     position: absolute;
     text-align: center;
     padding:10px 20px;
