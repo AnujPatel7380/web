@@ -1,0 +1,264 @@
+/* START: GLOBAL */
+body {
+  color: rgb(37, 52, 67);
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+a:hover {
+  color: rgb(37, 52, 67);
+}
+
+.modal-trigger {
+  cursor: pointer;
+}
+
+.site-wrapper {
+  min-width: 350px;
+  max-width: 992px;
+}
+
+.subtitle {
+  margin: 2em auto 1em 1em;
+}
+
+.section {
+    margin-top: 5em;
+}
+
+.subsection {
+    margin-top: 3em;
+}
+
+.splash {
+  margin: auto auto;
+  display: block;
+}
+
+.list-group-item dl {
+  margin-bottom: 0.5em;
+}
+
+.list-group-item dl dd {
+  margin-left: 1em;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.no-style {
+  background:none;
+  border:none;
+  padding:0;
+  outline:none;
+}
+
+/* Typography */
+.boost {
+  font-size: 18px;
+}
+
+footer {
+  padding: 1em;
+  margin: 7em 3em;
+}
+
+.panel-heading {
+  padding: 3px;
+}
+.panel-body {
+  padding: 10px 2px 0;
+}
+
+/* pc-list-group */
+.pc-list-group .pc-list-group-item {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #95a5a6;
+  margin-top: 1.5em;
+  position: relative;
+  padding: 0;
+}
+
+.pc-list-group .pc-list-group-item .pc-list-group-item-text {
+  position: absolute;
+  color: rgb(37, 52, 67);
+  background: rgba(236, 240, 241, 0.90);
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  overflow: hidden;
+  padding: 1.5em;
+  width: 40%;
+}
+.pc-list-group .pc-list-group-item .pc-list-group-item-text .pc-list-group-item-title {
+  margin-bottom: 1.375rem;
+}
+.pc-list-group .pc-list-group-item .pc-list-group-item-text .pc-list-group-item-description {
+  text-align: left;
+}
+.pc-list-group .pc-list-group-item .pc-list-group-item-text .pc-list-group-item-description-footer {
+  position: absolute;
+  margin: 0.5em;
+  right: 1em;
+}
+.pc-list-group .pc-list-group-item .pc-list-group-item-meta {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+  top: -5%;
+  right: 60%;
+  bottom: auto;
+  left: auto;
+  padding: 1em;
+}
+
+
+@media (max-width: 996px) {
+  .citation a, .citation a:hover, .citation a:visited {
+    font-size: 16px;
+  }
+
+  /* pc-list-group */
+  .pc-list-group .pc-list-group-item .pc-list-group-item-text {
+    padding: 0.8em;
+    width: 60%;
+  }
+  .pc-list-group .pc-list-group-item .pc-list-group-item-meta {
+    right: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .site-wrapper {
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+  /* pc-list-group */
+  .pc-list-group .pc-list-group-item {
+    margin-top: 0.2em;
+  }
+
+  .pc-list-group .pc-list-group-item .pc-list-group-item-text {
+      width: 100%;
+  }
+  .pc-list-group .pc-list-group-item .pc-list-group-item-text .pc-list-group-item-title {
+    margin-bottom: 0.5em;
+  }
+
+  .pc-list-group .pc-list-group-item .pc-list-group-item-meta {
+    display: none;
+  }
+
+  footer {
+    padding: 0;
+    margin: 3em 1em;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .splash {
+    display: none;
+  }
+}
+/* END: GLOBAL */
+
+/* Start: JUMBOTRON */
+.jumbotron {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 0;
+}
+
+.jumbotron p {
+  font-weight: normal;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+.jumbotron .brand {
+  margin: 2em 0;
+}
+
+.jumbotron .citation a, .citation a:hover, .citation a:visited {
+  position: relative;
+  top: -1em;
+  font-size: 19px;
+}
+
+.jumbotron .nav.nav-pills  {
+  position: relative;
+  top: -1em;
+}
+
+.jumbotron .nav.nav-pills li a  {
+  color: #34495E;
+  text-decoration: overline;
+  padding: 14px;
+}
+
+.jumbotron .nav.nav-pills li a:hover {
+  color: #34495E;
+}
+
+
+@media (max-width: 996px) {
+  .jumbotron h1 {
+    font-size: 36px;
+  }
+  .jumbotron .lead {
+    font-size: 18px;
+  }
+  .jumbotron .citation a, .citation a:hover, .citation a:visited {
+    top: 0;
+    font-size: 17px;
+  }
+  .jumbotron .nav.nav-pills  {
+    top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumbotron .lead {
+    font-size: 18px;
+  }
+
+  .jumbotron .brand.ghost {
+    position: absolute;
+    right: 10%;
+    top: 5em;
+    opacity: 0.15;
+    max-height: 150px;
+  }
+
+  .jumbotron .nav.nav-pills li a  {
+    padding: 0.5em;
+  }
+
+}
+/* END: JUMBOTRON */
+
+/* START: FAQ */
+.qa {
+    margin-bottom: 20px;
+}
+
+.qa .well p, li {
+    text-align: justify;
+}
+
+#faq h2 {
+    margin-top: 2em;
+}
+/* END: FAQ */

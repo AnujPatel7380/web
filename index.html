@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Anuj Patel</title>
+    <link rel="stylesheet" href="./header.css">
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Anuj Patel</label>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Feedback</a></li>
-        </ul>
-    </nav>
-    <section>
+    <header id="navbar">
+        <nav class="navbar-container container">
+            <a href="/" class="home-link">
+                <img class="navbar-logo" src="https://scontent-bom1-2.cdninstagram.com/v/t51.2885-19/s320x320/157030494_129429205766236_8000115360109166245_n.jpg?tp=1&_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_ohc=tDuCRKjoUYYAX-ygHFA&oh=60735646dda7c173a6cc83b63178fb5d&oe=607148B4">
+               Anuj Patel
+            </a>
+            <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-menu">
+                <ul class="navbar-links">
+                    <li class="navbar-item"><a class="navbar-link" href="/about">About</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="/blog">Blog</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="/careers">Careers</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    </section>
+
+    <script src="./header.js"></script>
 </body>
-
 </html>
