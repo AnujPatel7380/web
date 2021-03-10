@@ -3,8 +3,6 @@
     --navbar-text-color: hsl(0, 0%, 85%);
     --navbar-text-color-focus: white;
     --navbar-bg-contrast: hsl(0, 0%, 25%);
-    --navbar-height: 50px;
-
 }
 
 * {
@@ -28,6 +26,7 @@ body {
 }
 
 #navbar {
+    --navbar-height: 64px;
     position: fixed;
     height: var(--navbar-height);
     background-color: var(--navbar-bg-color);
@@ -59,9 +58,7 @@ body {
     transition: background-color 0.2s ease-in-out,
                 color 0.2s ease-in-out;
 }
-.home-link{
-  font-weight: 900;
-}
+
 .home-link:focus,
 .home-link:hover {
     color: var(--navbar-text-color-focus);
@@ -83,8 +80,8 @@ body {
 .navbar-logo {
     background-color: var(--navbar-text-color-focus);
     border-radius: 50%;
-    width: var(--navbar-height);
-    height: var(--navbar-height);
+    width: 30px;
+    height: 30px;
     margin-right: 0.5em;
 }
 
@@ -103,7 +100,7 @@ body {
 .icon-bar {
     display: block;
     width: 25px;
-    height: 2px;
+    height: 2.4px;
     margin: 3px;
     transition: background-color 0.2s ease-in-out,
                 transform 0.2s ease-in-out,
@@ -126,9 +123,11 @@ body {
 #navbar.opened .navbar-toggle .icon-bar:first-child {
     transform: rotate(45deg);
 }
+
 #navbar.opened .navbar-toggle .icon-bar:nth-child(2) {
     opacity: 0;
 }
+
 #navbar.opened .navbar-toggle .icon-bar:last-child {
     transform: rotate(-45deg);
 }
